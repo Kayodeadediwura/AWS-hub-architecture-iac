@@ -5,7 +5,7 @@ provider "aws" {
     tags = {
       Environment = var.environment
       ManagedBy   = "Terraform-IaC"
-      Owner       = "Enterprise-Cloud-Migration"
+      Owner       = "hashicorp/aws"
     }
   }
 }
